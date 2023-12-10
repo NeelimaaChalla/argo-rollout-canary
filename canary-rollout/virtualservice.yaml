@@ -8,6 +8,7 @@ spec:
   hosts:
   - istio-rollout.apps.argoproj.io
   - istio-rollout.local
+  - ad8c7ade87afe4d5a812f8aee72929ae-398571689.ap-south-1.elb.amazonaws.com
   http:
   - name: primary
     route:
